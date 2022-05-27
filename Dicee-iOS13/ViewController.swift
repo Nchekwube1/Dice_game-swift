@@ -10,8 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var iv1: UIImageView!
+    
+    @IBOutlet weak var iv2: UIImageView!
+    
+    @IBOutlet weak var rollBtn: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        iv1.image = UIImage(imageLiteralResourceName: "DiceSix")
+        
+//        iv1.image = #imageLiteral(resourceName: "DiceSix")
         // Do any additional setup after loading the view.
     }
 
